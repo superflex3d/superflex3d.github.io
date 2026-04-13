@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-        content="SuperFlex">
+  <meta name="description" content="SuperFlex">
   <meta name="keywords" content="SuperFlex, Superquadrics, Scene Decomposition, Robotics">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SuperFlex</title>
-  <link rel="icon" type="image/png" href="./static/figures/compressed/logo/chair.png">
+  <link rel="icon" type="image/png" href="./static/figures/logo/chair_transparent.png">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -23,17 +23,15 @@
     gtag('config', 'G-PYVRSFMDRL');
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/icon.svg">
   <!-- <link
@@ -49,93 +47,101 @@
   <script src="./static/js/index.js"></script>
   <script src="./static/js/video_comparison.js"></script>
 </head>
+
 <body>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title"> SuperFlex  </h1> 
-          <h2 class="title is-2 publication-title">Deformable Superquadrics for <br>Point Cloud Decomposition</h2>
-          <!-- <h1 class="title is-4" style="color: #5c5c5c;">text here</h1> -->
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="#">Gabriel Tavernini</a><sup>1</sup>,</span>
-            <span class="author-block">
-              <a href="https://elisabettafedele.github.io/">Elisabetta Fedele</a><sup>1</sup>,</span>
-              <span class="author-block">
-              <a href="https://sites.google.com/site/tiagonovellodebrito">Tiago Novello</a><sup>2</sup>,
-            </span><br>
-            <span class="author-block">
-              <a href="https://geometry.stanford.edu/?member=guibas">Leonidas Guibas</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://people.inf.ethz.ch/pomarc">Marc Pollefeys</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://francisengelmann.github.io/">Francis Engelmann</a><sup>3</sup>
-            </span>
-          </div>
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>ETH Zurich</span> &nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="author-block"><sup>2</sup>Stanford University</span> &nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="author-block"><sup>3</sup>USI Lugano</span> &nbsp;&nbsp;&nbsp;&nbsp;
-          </div>
-
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            <div class="publication-links">
+            <h1 class="title is-1 publication-title"> SuperFlex
+              <img src="static/figures/logo/chair.png" width="100" style="position: relative; top: 25px; left: -10px;">
+            </h1>
+            <h2 class="title is-2 publication-title">Deformable Superquadrics for <br>Point Cloud Decomposition</h2>
+            <!-- <h1 class="title is-4" style="color: #5c5c5c;">text here</h1> -->
 
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2504.00992"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="#">Gabriel Tavernini</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://elisabettafedele.github.io/">Elisabetta Fedele</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://sites.google.com/site/tiagonovellodebrito">Tiago Novello</a><sup>2</sup>,
+              </span><br>
+              <span class="author-block">
+                <a href="https://geometry.stanford.edu/?member=guibas">Leonidas Guibas</a><sup>2</sup>,
               </span>
-
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/elisabettafedele/SuperFlex"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
+              <span class="author-block">
+                <a href="https://people.inf.ethz.ch/pomarc">Marc Pollefeys</a><sup>1</sup>,
               </span>
-              <!-- Video/Presentation Link -->
-              <span class="link-block">
-                <a href="https://youtu.be/61EdFglLli0?si=W-pvWQtbXIStba_t"
-                    class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
+              <span class="author-block">
+                <a href="https://francisengelmann.github.io/">Francis Engelmann</a><sup>3</sup>
               </span>
-              <span class="link-block">
-                <a href="static/figures/poster.pdf" class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <svg class="svg-inline--fa fa-palette fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="palette" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
-                  </span><span>Poster</span>
-                </a>
-              </span>
-
             </div>
 
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>ETH Zurich</span> &nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="author-block"><sup>2</sup>Stanford University</span> &nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="author-block"><sup>3</sup>USI Lugano</span> &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2504.00992" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/elisabettafedele/SuperFlex"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Video/Presentation Link -->
+                <span class="link-block">
+                  <a href="https://youtu.be/61EdFglLli0?si=W-pvWQtbXIStba_t"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="static/figures/poster.pdf" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <svg class="svg-inline--fa fa-palette fa-w-16" aria-hidden="true" focusable="false"
+                        data-prefix="fas" data-icon="palette" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                          d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
+                        </path>
+                      </svg>
+                    </span><span>Poster</span>
+                  </a>
+                </span>
+
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- <section class="hero is-light is-small has-text-centered">
+  <!-- <section class="hero is-light is-small has-text-centered">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Decomposition of Replica scenes</h2>
@@ -159,506 +165,443 @@
     </div>
   </div>
 </section> -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <!-- <h2 class="title is-3">Video</h2> -->
-        <div class="column is-flex is-justify-content-center">
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <!-- <h2 class="title is-3">Video</h2> -->
+          <div class="column is-flex is-justify-content-center">
             <video id="robots" autoplay muted loop playsinline controls style="width: 900px; height: auto;">
-              <source src="./static/videos/superflex_video.mp4" type="video/mp4">
+              <!-- <source src="./static/videos/superflex_video.mp4" type="video/mp4"> -->
+              <source src="https://polybox.ethz.ch/index.php/s/gcNojNWtGw3BZwF/download/superflex_video.mp4" type="video/mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          While recent advances like SuperDec have revitalized superquadrics for compact 3D scene understanding, they remain limited by rigid geometric constraints and lack robustness to partial observations. We present SuperFlex, an enhanced framework expanding the expressive power and applicability of superquadric decompositions. First, we include bending and tapering parameters, enabling high-fidelity representation of complex geometries. Second, a novel loss formulation and optimization scheme refines initial decompositions, significantly improving accuracy. These high-fidelity primitives enable training a robust model for direct prediction from noisy, partial real-world point clouds, a task previously infeasible for methods requiring full point clouds.</div>
-      </div>
     </div>
+  </section>
 
-  </div>
-</section>
-
-
-
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Method Overview</h2>
-        <div class="content has-text-justified">
-          <img src="./static/figures/model.jpeg">
-          <p><strong>Overview of SuperFlex</strong>. Given an input point cloud, SuperFlex decomposes the object into a set of superquadric primitives, each defined by pose, shape, and deformation parameters.
-The model is trained via self-supervised joint volumetric and surface losses.
-A subsequent (optional) object-specific optimization can further improve the superquadric decomposition quality leveraging the same losses.</p>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            While recent advances like SuperDec have revitalized superquadrics for compact 3D scene understanding, they
+            remain limited by rigid geometric constraints and lack robustness to partial observations. We present
+            <span class="dnerf">SuperFlex</span>, an enhanced framework expanding the expressive power and applicability of superquadric
+            decompositions. First, we include bending and tapering parameters, enabling high-fidelity representation of
+            complex geometries. Second, a novel loss formulation and optimization scheme refines initial decompositions,
+            significantly improving accuracy. These high-fidelity primitives enable training a robust model for direct
+            prediction from noisy, partial real-world point clouds, a task previously infeasible for methods requiring
+            full point clouds.</div>
+        </div>
       </div>
+
     </div>
-  </div>
-</section>
+  </section>
 
 
-<section class="section" style="width: 85%; margin: 0 auto">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Results</h2> 
-        <h2
-          class="title is-4"
-          style="text-align: justify; padding-bottom: 10px"
-        >
-        Object-Level Results
-        </h2>
-        <div class="content has-text-justified">
-          <p> We evaluate the performance of <span class="dnerf">SuperFlex</span> to decompose individual objects on <em>ShapeNet</em>, a traditional object dataset.</p>
-        <p>To evaluate both accuracy and generalization, we conduct two experiments: <em>in-category</em> and <em>out-of-category</em>. 
-          In the <em>in-category</em> experiment, all learning-based methods are trained on the full ShapeNet training set (13 classes) and evaluated on the corresponding test set.
-                              In the <em>out-of-category</em> experiment, models are trained on half of the categories (airplane, bench, chair, lamp, rifle, table) and evaluated on the remaining ones (car, sofa, loudspeaker, cabinet, display, telephone, watercraft).
-                              </p>
-                              <p>
-                                We compare with three baselines: <em>EMS</em> [1],  <em>SQ</em> [2], <em>CSA</em> [3].
-                              </p>
-      </div>
-    </div>
-  </div>
-</div>
-      <div class="container">
-        <div class="columns is-centered ">
-          <div class="column is-full-width">
-        <div
-          class="slideshow-container"
-          style="width: 70%; margin-top: 30px"
-        >
-     
-
-          <div class="mySlides0">
-            <div class="card">
-              <div style="display: flex; align-items: center">
-                <div style="flex: 1; text-align: center;">
-                  <!-- <p><strong><font size="5">Quantitative Comparison</font></strong></p><br> -->
-                  <figure style="display: inline-block;">
-                    <img
-                      src="./static/figures/compressed/shapenet/quanti.jpeg"
-                      alt="shapenet_quantitative"
-                      width="900"
-                    />
-                    <figcaption style="margin-top: 0.5rem;">
-                      <strong>Quantitative Results on ShapeNet</strong>. We evaluate the accuracy of the reconstruction in terms of L2 Chamfer distance (scaled by 100) and the compactness of the representation in terms of number of primitives.
 
 
-                    </figcaption>
-                  </figure>
-                </div>
-              </div>
-            </div>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Method Overview</h2>
+          <div class="content has-text-justified">
+            <img src="./static/figures/model.jpeg">
+            <p><strong>Overview of SuperFlex</strong>. Given an input point cloud,  <span class="dnerf">SuperFlex</span> decomposes the object into
+              a set of superquadric primitives, each defined by pose, shape, and deformation parameters.
+              The model is trained via self-supervised joint volumetric and surface losses.
+              A subsequent (optional) object-specific optimization can further improve the superquadric decomposition
+              quality leveraging the same losses.</p>
           </div>
-          <div class="mySlides0">
-            <div class="card">
-              <div style="display: flex; align-items: center">
-                <div style="flex: 1">
-                  <!-- <p><strong><font size="5">  Qualitative Comparison</font></strong> <br><br> -->
-                    <!-- Our method greatly outperforms both learned and non-learned baselines. Compared to <i>learned</i> baselines, we achieve an L2 loss <b>6x</b> smaller while using nearly half the number of primitives. 
-                    This verifies our hypothesis that leveraging local point features benefits 3D decomposition in terms of both accuracy and compactness. Against the <i>non-learned</i> baseline, we predict a similar number of primitives but achieve an L2 loss <b>19x</b> smaller. 
-                    This verifies our hypothesis that learning shape priors allows to avoid local minima which are sometimes unavoidable using pure optimization.</p>
-                    <br> -->
+        </div>
+      </div>
+  </section>
+
+
+  <section class="section" style="width: 85%; margin: 0 auto">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Results</h2>
+          <h2 class="title is-4" style="text-align: justify; padding-bottom: 10px">
+            Object-Level Results
+          </h2>
+          <div class="content has-text-justified">
+            <p> We evaluate the performance of <span class="dnerf">SuperFlex</span> to decompose individual objects on
+              <em>ShapeNet</em>, a traditional object dataset.</p>
+            <p>Our <span class="dnerf">SuperFlex</span> model significantly outperforms all the learning- and optimization-based methods,
+              particularly in terms of IoU.
+              The only method which is able to achieve similar IoU compared to our base model is Marching Primitives [4]
+              which however uses more than <b>4x</b> the primitives we use and is more than <b>10000x slower</b>.
+            </p>
+            <p>
+              We compare with five baselines: <em>SQ</em> [1], <em>CSA</em> [2], <em>EMS</em> [3], <em>Marching
+                Primitives</em> [4], <em>SuperDec</em> [5].
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="columns is-centered ">
+        <div class="column is-full-width">
+          <div class="slideshow-container" style="width: 70%; margin-top: 30px">
+
+
+            <div class="mySlides0">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1; text-align: center;">
+                    <!-- <p><strong><font size="5">Quantitative Comparison</font></strong></p><br> -->
                     <figure style="display: inline-block;">
-                  <img
-                    src="./static/figures/compressed/shapenet/quali.jpeg"
-                    alt="shapenet_qualitative"
-                    width="750"
-                  />
-                  <figcaption style="margin-top: 0.5rem;">
-                    <strong>Qualitative Results on ShapeNet</strong>. We show results on test samples for in-category <em>(four first columns)</em> classes and out-of-category classes <em>(two last columns)</em>. The latter were not seen during training and illustrate how well models generalize to novel classes.
+                      <img src="./static/figures/plots/comparison_plot.webp" alt="shapenet_quantitative" width="900" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Quantitative Results on ShapeNet</strong>. We evaluate the accuracy of the
+                        reconstruction in terms of Intersection over Union (IoU) and the compactness of the
+                        representation in terms of number of primitives.
 
-                  </figcaption>
-                </figure>
+
+                      </figcaption>
+                    </figure>
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="mySlides0">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1; text-align: center;">
+                    <!-- <p><strong><font size="5">Quantitative Comparison</font></strong></p><br> -->
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/plots/pareto_superflex.webp" alt="shapenet_quantitative_scatter" width="900" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Quantitative Results on ShapeNet</strong>. We evaluate the accuracy of the
+                        reconstruction in terms of Intersection over Union (IoU) and the compactness of the
+                        representation in terms of number of primitives.
+
+
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mySlides0">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1">
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/qualitative/comparison_qualitative.jpg" alt="shapenet_qualitative"
+                        width="750" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Qualitative Results on ShapeNet</strong>. We show results on test samples for
+                        in-category <em>(four first columns)</em> classes and out-of-category classes <em>(two last
+                          columns)</em>. The latter were not seen during training and illustrate how well models
+                        generalize to novel classes.
+
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(0, -1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(0, 1)">&#10095;</a>
           </div>
-          
+          <br />
 
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(0, -1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(0, 1)">&#10095;</a>
-        </div>
-        <br />
-
-        <!-- The dots/circles -->
-        <div style="text-align: center">
-          <span class="dot0" onclick="currentSlide(0, 1)"></span>
-          <span class="dot0" onclick="currentSlide(0, 2)"></span>
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot0" onclick="currentSlide(0, 1)"></span>
+            <span class="dot0" onclick="currentSlide(0, 2)"></span>
+            <span class="dot0" onclick="currentSlide(0, 3)"></span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <p>We also show that with the introduction of our refinement stage, which is much faster than prior optimization methods, 
+              predictions from our feed-forward model can be enhanced further by obtaining a <b>22% improvement</b> over the predictions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="columns is-centered ">
+        <div class="column is-full-width">
+          <div class="slideshow-container" style="width: 70%; margin-top: 30px">
+
+
+            <div class="mySlides1">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1; text-align: center;">
+                    <!-- <p><strong><font size="5">Quantitative Comparison</font></strong></p><br> -->
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/qualitative/optimization_qualitative.jpg" alt="optimization_qualitative" width="900" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Qualitative Results on ShapeNet</strong>. 
+                        We illustrate how the refinement step improves the quality of the fitted shapes.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mySlides1">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1">
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/plots/comparison_plot_optim.webp" alt="optimization_quantitative"
+                        width="750" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Quantitative Results on ShapeNet</strong>. We evaluate the accuracy of the
+                        reconstruction in terms of Intersection over Union (IoU) and the speed of the optimization in terms of runtime.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mySlides1">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1">
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/plots/pareto_runtime.webp" alt="optimization_quantitative_scatter"
+                        width="750" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Quantitative Results on ShapeNet</strong>.  We evaluate the accuracy of the
+                        reconstruction in terms of Intersection over Union (IoU) and the speed of the optimization in terms of runtime.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(1, -1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot1" onclick="currentSlide(1, 1)"></span>
+            <span class="dot1" onclick="currentSlide(1, 2)"></span>
+            <span class="dot1" onclick="currentSlide(1, 3)"></span>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+    
 
     <div class="container is-max-desktop">
-      <h2
-          class="title is-4"
-          style="text-align: justify; padding-bottom: 10px"
-        >
-        Scene-Level Results
-        </h2>
+      <h2 class="title is-4" style="text-align: justify; padding-bottom: 10px">
+        Partial Point Clouds
+      </h2>
       <div class="content has-text-justified">
-      <p>Our model trained only on 13 ShapeNet categories, can be extended to 3D scenes without any additional fine-tuning. Specifically, 
-          given a 3D scene point cloud, we obtain object instance mask using Mask3D, center and rescale them, and directly input them into our model. We visualize the results for some scenes from the <strong>Replica</strong> dataset.</p>
-        <br></div>
-      <figure style="text-align: center; margin-top: -15px; margin-bottom: -10px;">
-        <div style="display: flex; justify-content: center; gap: 0.3rem;">
-        
-        <div style="text-align: center;">
-          <div style="margin-bottom: 0.5rem;"><strong>Room 0</strong></div>
-          <img src="./static/figures/compressed/replica/room0_rgb.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <div style="margin-bottom: 0.5rem;"><strong>Room 1</strong></div>
-          <img src="./static/figures/compressed/replica/room1_rgb.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <div style="margin-bottom: 0.5rem;"><strong>Room 2</strong></div>
-          <img src="./static/figures/compressed/replica/room2_rgb.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <div style="margin-bottom: 0.5rem;"><strong>Office 4</strong></div>
-          <img src="./static/figures/compressed/replica/office_rgb.jpeg" style="width: 230px;">
-        </div>
-      </div>
-      <div style="display: flex; justify-content: center; gap: 0.3rem;">
-        <div style="text-align: center;">
-          <img src="./static/figures/compressed/replica/room0_sq.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <img src="./static/figures/compressed/replica/room1_sq.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <img src="./static/figures/compressed/replica/room2_sq.jpeg" style="width: 230px;">
-        </div>
-        <div style="text-align: center;">
-          <img src="./static/figures/compressed/replica/office_sq.jpeg" style="width: 230px;">
-        </div>
-      </div>
-      <figcaption style="margin-top: 10px;">
-        <strong>Qualitative results on Replica scenes.</strong>
-        Top row shows renderings of the original point clouds, bottom rows shows the superquadric representation obtained with <span class="dnerf">SuperFlex</span>.
-      </figcaption>
-    </figure>
-
-    <br>
-    We also visualize the results of SuperFlex on some scenes from <strong>ScanNet++</strong>. 
-    <br>
-
-    <figure style="text-align: center; margin-top: 25px; margin-bottom: -10px;">
-      <div style="display: flex; justify-content: center; gap: 0.3rem;">
-      
-      <div style="text-align: center;">
-        <div style="margin-bottom: 0.5rem;"><strong>88f265fe25</strong></div>
-        <img src="./static/figures/compressed/scannetpp/88f265fe25_pc.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="margin-bottom: 0.5rem;"><strong>95748dd597</strong></div>
-        <img src="./static/figures/compressed/scannetpp/95748dd597_pc.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="margin-bottom: 0.5rem;"><strong>2a1b555966</strong></div>
-        <img src="./static/figures/compressed/scannetpp/2a1b555966_pc_bis.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="margin-bottom: 0.5rem;"><strong>0b031f3119</strong></div>
-        <img src="./static/figures/compressed/scannetpp/0b031f3119_pc.jpeg" style="width: 230px;">
+        <p>We evaluate reconstruction under realistic sensing conditions both quantitatively and qualitatively. 
+          We use the Aria Synthetic Environments (ASE) dataset for quantitative evaluation as having access to 
+          the GT 3D models allows to compute all the relevant metrics. ASE dataset contains scans of complex indoor 
+          scenes made up of objects from the Amazon Berkeley Objects (ABO) dataset.
+          We use the provided depth maps together with the instance segmentation masks to extract object point 
+          clouds that exhibit viewpoint-dependent incompleteness, including self-occlusion, partial visibility, 
+          and occlusion by surrounding objects. We give those point clouds as input to our model and we use the ground 
+          truth 3D models from ABO to evaluate our predictions.
+        </p>
+        <br>
       </div>
     </div>
-    <div style="display: flex; justify-content: center; gap: 0.3rem;">
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/scannetpp/88f265fe25_sq.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/scannetpp/95748dd597_sq.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/scannetpp/2a1b555966_sq_bis.jpg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/scannetpp/0b031f3119_sq.jpeg" style="width: 230px;">
-      </div>
-    </div>
-    <figcaption style="margin-top: 10px;">
-      <strong>Qualitative results on ScanNet++ scenes.</strong>
-      Top row shows renderings of the original point clouds, bottom rows shows the superquadric representation obtained with <span class="dnerf">SuperFlex</span>.
-    </figcaption>
-  </figure>
 
-  </div>
-</section>
+    <div class="container">
+      <div class="columns is-centered ">
+        <div class="column is-full-width">
+          <div class="slideshow-container" style="width: 70%; margin-top: 30px">
 
-
-
-
-
-
-<section class="section" style="width: 85%; margin: 0 auto">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2
-          class="title is-3"
-          style="text-align: center; padding-bottom: 10px"
-        >
-        Applications
-        </h2>
-        <div class="content has-text-justified">
-        <p>We envision <span class="dnerf">SuperFlex</span> enabling a wide range of applications, especially in <b>robotics</b> and <b>controllable content</b> generation.</p>
-      <h2
-          class="title is-4"
-          style="text-align: justify; padding-bottom: 10px"
-          id="robotics"
-        >
-        Robotics
-        </h2>
-        <div class="content has-text-justified">
-          <p>We have explored how our representation can be used in robotics by evaluating in real-world for the tasks of <i>path planning</i> and <i>object grasping</i>. 
-            Given a scan of a real-world 3D scene captured with an iPad, we use <span class="dnerf">SuperFlex</span> to compute its superquadric representation and we compute the grasping poses for some of the objects present in the scene.  
-          </div>  
-  
-          <div class="columns is-vcentered is-centered" style="gap: 0.5rem;">
-            <div class="column is-narrow is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-fullheight">
-              <figure class="image" style="text-align: center;">
-              
-                <img src="./static/figures/compressed/robotics/grasp_bottle_flowers.jpeg" alt="Image 1" style="height: 220px; width: auto;">
-                <figcaption style="font-style: italic; margin-bottom: 0.3rem;">Grasp for a <span style="color: rgb(205, 6, 205);">milk bottle</span> and some 
-                  <span style="color: #1791be;">flowers</span></figcaption>
-              </figure>
+            <div class="mySlides2">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1; text-align: center;">
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/qualitative/occlusions_qualitative.jpg" alt="occlusions_qualitative"
+                        width="800" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Qualitative Results on ASE.</strong>
+                        Top row: input point clouds. Below: the outputs of <span class="dnerf">SuperFlex</span>
+                        and our robust method.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="column is-narrow is-flex is-flex-direction-column is-align-items-center is-justify-content-center is-fullheight">
-              <figure class="image" style="text-align: center;">
-                
-                <img src="./static/figures/compressed/robotics/grasp_plant_table.jpeg" alt="Image 2" style="height: 220px; width: auto;">
-                <figcaption style="font-style: italic; margin-bottom: 0.3rem;">Grasp for a <span style="color: #e6b925;">side table</span>, and a 
-                  <span style="color: #f77315;">plant</span> </figcaption>
-              </figure>
+
+            <div class="mySlides2">
+              <div class="card">
+                <div style="display: flex; align-items: center">
+                  <div style="flex: 1; text-align: center;">
+                    <figure style="display: inline-block;">
+                      <img src="./static/figures/plots/comparison_plot_occ.webp" alt="occlusions_quantitative"
+                        width="850" />
+                      <figcaption style="margin-top: 0.5rem;">
+                        <strong>Quantitative Results on ASE.</strong>
+                        We evaluate reconstruction performance under partial observations across all metrics.
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <a class="prev" onclick="plusSlides(2, -1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(2, 1)">&#10095;</a>
           </div>
-          
-        <div class="content has-text-justified">
-            Then, given the robot’s starting position, we use the superquadric representation to compute the path planning towards the milk bottle, allowing it to move towards the desired object and to grasp it using the previously computed pose.
+          <br />
 
+          <div style="text-align: center">
+            <span class="dot2" onclick="currentSlide(2, 1)"></span>
+            <span class="dot2" onclick="currentSlide(2, 2)"></span>
+          </div>
         </div>
-        <div class="columns is-1 is-multiline is-mobile"> 
-
-             
-    </div> 
-    <h2
-    class="title is-4"
-    style="text-align: justify; padding-bottom: 10px"
-  >
-
-  <br>
-  <br>
-  Controllable generation and editing 
-  </h2>
-  <div class="content has-text-justified">
-    <p>We have also explored how our representation can be directly leveraged to introduce joint spatial and semantic control in the generations of text-to-image diffusion models. To do that we generated some images by conditioning a ControlNet on the depths of the superquadrics extracted from some Replica scenes. We have seen that the superquadric representation can be used to achieve both spatial and semantic control of the generations.</p>
-      
-
-    </div>
-    <figure style="text-align: center; margin-top: -15px; margin-bottom: -10px;">
-      <div style="display: flex; justify-content: center; gap: 0.3rem;">
-      <div style="text-align: center;">
-        <div style="font-style: italic; margin-bottom: 0.5rem;">Original</div>
-        <img src="./static/figures/compressed/generation/room1_2_bg.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="font-style: italic; margin-bottom: 0.5rem;">Editing</div>
-        <img src="./static/figures/compressed/generation/room1_edit.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="font-style: italic; margin-bottom: 0.5rem;">Addition</div>
-        <img src="./static/figures/compressed/generation/room1_double.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <div style="font-style: italic; margin-bottom: 0.5rem;">Deletion</div>
-        <img src="./static/figures/compressed/generation/room1_remove.jpeg" style="width: 230px;">
       </div>
     </div>
-    <div style="display: flex; justify-content: center; gap: 0.3rem;">
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/generation/corner-plant-orig.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/generation/corner-plant-edit.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/generation/corner-plant-double.jpeg" style="width: 230px;">
-      </div>
-      <div style="text-align: center;">
-        <img src="./static/figures/compressed/generation/corner-plant-remove.jpeg" style="width: 230px;">
-      </div>
-    </div>
-    <figcaption style="margin-top: 10px;">
-      <strong><em>Spatial</em> control.</strong>
-      Top row shows superquadrics generated by <span class="dnerf">SuperFlex</span>, bottom row shows generated images using the prompt
-      <em>"A corner of a room with a plant"</em>.
-    </figcaption>
-  </figure>
-    
-    <br>
 
-    <div class="content has-text-justified">
-      </div>
-      <figure style="text-align: center; margin-top: -15px; margin-bottom: -10px;">
+    <div class="container is-max-desktop">
 
-        <!-- Single row with all 4 images -->
+      <br>
+      We also visualize the results of our robust method on some scenes from <strong>ScanNet++</strong>.
+      <br>
+
+      <figure style="text-align: center; margin-top: 25px; margin-bottom: -10px;">
         <div style="display: flex; justify-content: center; gap: 0.3rem;">
+
           <div style="text-align: center;">
-            <div style="font-style: italic; margin-bottom: 0.5rem;">Superquadrics</div>
-            <img src="./static/figures/compressed/generation/room0_1.jpeg" style="width: 230px;">
+            <div style="margin-bottom: 0.5rem;"><strong>4d451d9c35</strong></div>
+            <img src="./static/figures/qualitative/4d451d9c35.jpg">
           </div>
           <div style="text-align: center;">
-            <div style="font-style: italic; margin-bottom: 0.5rem;">Depth</div>
-            <img src="./static/figures/compressed/generation/room0_depth.jpeg" style="width: 230px;">
-          </div>
-          <div style="text-align: center;">
-            <div style="font-style: italic; margin-bottom: 0.5rem;">“<strong>Pink</strong> living room”</div>
-            <img src="./static/figures/compressed/generation/room0_pink.jpeg" style="width: 230px;">
-          </div>
-          <div style="text-align: center;">
-            <div style="font-style: italic; margin-bottom: 0.5rem;">“<strong>Modern</strong> living room”</div>
-            <img src="./static/figures/compressed/generation/room0_living_room.jpeg" style="width: 230px;">
+            <div style="margin-bottom: 0.5rem;"><strong>e2caaaf5b5</strong></div>
+            <img src="./static/figures/qualitative/e2caaaf5b5.jpg">
           </div>
         </div>
-      
-        <!-- Global caption -->
         <figcaption style="margin-top: 10px;">
-          <strong><em>Semantic</em> control.</strong>
-          All images share the same scene geometry; the first two are structural prompts, the last two are generated with distinct textual prompts. Our representation allows to change the style of the room while keeping its semantic and geometric structure fixed.
+          <strong>Qualitative results on ScanNet++ scenes.</strong>
+          We show two examples scene from ScanNet++ where each object is decomposed into a set of superquadrics.
         </figcaption>
       </figure>
-      
-      
 
-    
-  </div>
-
-</section>
-
-<section class="section" style="width: 85%; margin: 0 auto">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2
-          class="title is-3"
-          style="text-align: center; padding-bottom: 10px"
-        >
-        Additional experiments
-        </h2>
-        <h2
-          class="title is-4"
-          style="text-align: justify; padding-bottom: 10px">
-          
-          Unsupervised part segmentation
-        </h2>
-        <div class="content has-text-justified">
-          <p>
-            Our method not only learns to predict the parameters of the superquadrics representation, but also the segmentation matrix which decomposes the initial point cloud into parts which can be fitted by the predicted superquadrics. Below, we visualize the predicted segmentations for the same examples from ShapeNet. We observe that segmentation masks, appear very sharp and this suggests that our method, especially if trained at a larger scale, can be leveraged for different applications as geometry-based part segmentation or as pretraining for supervised part segmentation. 
-          </p>
-          </div>  
-          <figure style="text-align: center;">
-            <!-- Image row -->
-            <div style="display: flex;justify-content: center; gap: 0.3rem;">
-              <div style="text-align: center;">
-              <img src="./static/figures/compressed/additional/d217e8ab61670bbb433009863c91a425_superdec_segment.jpeg" style="width: 230px;">
-            </div>
-            <div style="text-align: center;">
-              <img src="./static/figures/compressed/additional/cbcc5cd1aec9f3413aa677469bbdd68c_superdec_segment.jpeg" style="width: 230px;">
-            </div>
-            <div style="text-align: center;">
-            <img src="./static/figures/compressed/additional/cda92b4188af3a17c03a563a9407c5ea_superdec_segment.jpeg" style="width: 230px; ">
-          </div>
-          <div style="text-align: center;">
-              <img src="./static/figures/compressed/additional/d911b390503a11f96436916a86a90ed7_superdec_segment.jpeg" style="width: 230px; ">
-            </div>
-          </div>
-          
-            <!-- Global caption -->
-            <figcaption style="margin-top: 0.75rem;">
-              <strong>Part segmentation results on ShapeNet</strong>. Our method learns to segment objects into parts which can be fitted by superquadrics. 
-            </figcaption>
-          </figure>
-
-          <br><br>
-
-          <h2
-          class="title is-4"
-          style="text-align: justify; padding-bottom: 10px">
-          
-          What does our network learn?
-        </h2>
-        <div class="content has-text-justified">
-          <p>
-            Since our network is completely unsupervised in segmenting objects into parts, in this experiment we analyze the features learned by our Transformer decoder across different object classes.
-            To do that, similarly to BERT's [CLS] token, we append a learnable embedding to the sequence of embedded superquadrics.
-            While this additional embedding is never explicitly decoded, it intuitively learns to extract meaningful features during self- and cross-attention layers.
-            After training the model with this additional embedding, we decode it at test time and save the resulting vectors across different ShapeNet object categories.
-            Below, we show a t-SNE visualization of those.
-            We observe that categories with consistent object shapes, such as chairs, airplanes, and cars, form distinct clusters,
-            whereas classes with greater shape diversity, such as watercraft, spread across a larger region of the plot.
-            This result suggests that our model is able to cluster objects based on their geometrical structure, without the need for any annotation.
-          </p>
-
-          </div>  
-
-          <figure id="tsne-embs" style="text-align: center; margin-top: 1.5rem;">
-            <img
-              src="./static/figures/compressed/additional/tsne_visualization.jpeg"
-              alt="t-SNE visualization of primitive embeddings"
-              style="width: 60%; object-fit: cover;"
-            />
-            <figcaption style="margin-top: 0.75rem;">
-              <strong>t-SNE Visualization of Primitive Embeddings</strong> across different ShapeNet classes.
-            </figcaption>
-          </figure>
-          
-      </div>
     </div>
-  </div>
-</section>
-
-
-<section class="section" id="References">
-  <div class="container is-max-desktop content">
-    <h2 class="title">References</h2>
-    <ol>
-      <li>
-        Weixiao Liu, Yuwei Wu, Sipu Ruan, and Gregory S. Chirikjian. Robust and accurate superquadric recovery: a probabilistic approach. In <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2022.
-      </li>
-      <li>
-        Despoina Paschalidou, Ali Osman Ulusoy, and Andreas Geiger. Superquadrics revisited: Learning 3d shape parsing beyond cuboids. In <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2019.
-      </li>
-      <li>
-        Kaizhi Yang and Xuejin Chen. Unsupervised learning for cuboid shape abstraction via joint segmentation from point clouds. In <em>ACM Transactions On Graphics (TOG)</em>, 2021.
-      </li>
-      <!-- Add more <li> items for additional references -->
-    </ol>
-  </div>
-</section>
+  </section>
 
 
 
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{superflex,
+
+
+
+  <section class="section" style="width: 85%; margin: 0 auto">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3" style="text-align: center; padding-bottom: 10px">
+            Applications
+          </h2>
+          <div class="content has-text-justified">
+            We envision <span class="dnerf">SuperFlex</span> as an interpretable and scalable framework for efficient scene 
+            understanding in complex environments, combining <b>non-rigid deformable primitives</b> with a <b>robust 
+            model for partial point clouds</b>.</p>
+            <h2 class="title is-4" style="text-align: justify; padding-bottom: 10px" id="robotics">
+              3D Scene Decomposition from RGB Frames
+            </h2>
+            <div class="content has-text-justified">
+              <p>Inspired by how SAM3D proposed to reconstruct multi-object scenes from a single RGB frame, 
+                we experiment how <span class="dnerf">SuperFlex</span> can be used in the same monocular setting. 
+                We propose a modular pipeline that integrates SAM3 for object segmentation and MoGE for lifting 
+                2D masks into partial 3D point clouds. While single-view observations suffer from inherent self-occlusion, 
+                our robust model, fine-tuned with occlusion augmentations, can still infer complete object geometries as 
+                sets of coherent deformable primitives.
+            </div>
+
+            <figure style="text-align: center; margin-top: 25px; margin-bottom: -10px;">
+              <div style="display: flex; justify-content: center; gap: 0.3rem;">
+                <div style="text-align: center;">
+                  <img src="./static/figures/qualitative/sam3_moge_superflex.jpg">
+                </div>
+              </div>
+              <figcaption style="margin-top: 10px;">
+                <strong>SuperFlex from a single RGB Image.</strong>
+                From an input RGB frame, we first compute instance point maps using SAM3 and MoGE. 
+                Then, we apply <span class="dnerf">SuperFlex</span> on top of each object’s point map.
+              </figcaption>
+            </figure>
+            <br>
+            <br>
+
+            <div class="content has-text-justified">
+               These results suggest that <span class="dnerf">SuperFlex</span> has the potential to serve as a robust, compact, 
+               and interpretable alternative to traditional full-scene reconstructions even from monocular observations.
+
+            </div>
+            <div class="columns is-1 is-multiline is-mobile">
+
+
+            </div>
+  </section>
+
+
+  <section class="section" id="References">
+    <div class="container is-max-desktop content">
+      <h2 class="title">References</h2>
+      <ol>
+        <li>
+          Despoina Paschalidou, Ali Osman Ulusoy, and Andreas Geiger. Superquadrics revisited: Learning 3d shape parsing
+          beyond cuboids. In <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2019.
+        </li>
+        <li>
+          Kaizhi Yang and Xuejin Chen. Unsupervised learning for cuboid shape abstraction via joint segmentation from
+          point clouds. In <em>ACM Transactions On Graphics (TOG)</em>, 2021.
+        </li>
+        <li>
+          Weixiao Liu, Yuwei Wu, Sipu Ruan, and Gregory S. Chirikjian. Robust and accurate superquadric recovery: a
+          probabilistic approach. In <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2022.
+        </li>
+        <li>
+          Liu, W., Wu, Y., Ruan, S., Chirikjian, G.S.: Marching-primitives: Shape abstraction from signed distance function.
+          In <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2022.
+        </li>
+        <li>
+          Fedele, E., Sun, B., Guibas, L., Pollefeys, M., Engelmann, F.: SuperDec: 3D Scene Decomposition with Superquadric Primitives. 
+          In: <em></em>International Conference on Computer Vision (ICCV)</em>, 2025.
+        </li>
+        <!-- Add more <li> items for additional references -->
+      </ol>
+    </div>
+  </section>
+
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{superflex,
       title   = {{SuperFlex: Deformable Superquadrics for Point Cloud Decomposition}},
       author  = {Tavernini, Gabriel and Fedele, Elisabetta and Novello, Tiago 
         and Guibas, Leonidas and Pollefeys, Marc and Engelmann, Francis},
@@ -666,81 +609,90 @@ A subsequent (optional) object-specific optimization can further improve the sup
       year    = {2026}
     }
   </code></pre>
-  </div>
-</section>
+    </div>
+  </section>
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>
-            This website is licensed under a <a rel="license"
-                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-          <p>
-            Website source code based on the <a rel="nerfies" href="https://nerfies.github.io/">Nerfies</a> project page
-          </p>
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+            <p>
+              Website source code based on the <a rel="nerfies" href="https://nerfies.github.io/">Nerfies</a> project
+              page
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Fancybox -->
-<script src="fancybox/fancybox.umd.js"></script>
-<script>
-  Fancybox.bind("[data-fancybox]", {
-    infinite: false,
-    Thumbs: {
-      autoStart: false,
-    },
-  });
-</script>
+  <!-- Fancybox -->
+  <script src="fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind("[data-fancybox]", {
+      infinite: false,
+      Thumbs: {
+        autoStart: false,
+      },
+    });
+  </script>
 
-<!-- Javascript Functions -->
-<script type="text/javascript">
-  let slideIndex = [1];
-  let slideId = 0;
-  showSlides(slideId, slideIndex[slideId]);
+  <!-- Javascript Functions -->
+  <script type="text/javascript">
+    let slideIndex = [1, 1, 1];
+    showSlides(0, slideIndex[0]);
+    showSlides(1, slideIndex[1]);
+    showSlides(2, slideIndex[2]);
 
-  // Next/previous controls
-  function plusSlides(id, n) {
-    showSlides(id, (slideIndex[id] += n));
-  }
-
-  // Thumbnail image controls
-  function currentSlide(id, n) {
-    showSlides(id, (slideIndex[id] = n));
-  }
-
-  function showSlides(id, n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides" + id);
-    let dots = document.getElementsByClassName("dot" + id);
-    if (n > slides.length) {
-      slideIndex[id] = 1;
+    // Next/previous controls
+    function plusSlides(id, n) {
+      if (typeof slideIndex[id] === "undefined") {
+        slideIndex[id] = 1;
+      }
+      showSlides(id, (slideIndex[id] += n));
     }
-    if (n < 1) {
-      slideIndex[id] = slides.length;
-    }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex[id] - 1].style.display = "block";
-    dots[slideIndex[id] - 1].className += " active";
-  }
 
-  // Automatic slideshow
-  setInterval(() => {
-    plusSlides(0, 1);
-  }, 150000);
-</script>
+    // Thumbnail image controls
+    function currentSlide(id, n) {
+      if (typeof slideIndex[id] === "undefined") {
+        slideIndex[id] = 1;
+      }
+      showSlides(id, (slideIndex[id] = n));
+    }
+
+    function showSlides(id, n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides" + id);
+      let dots = document.getElementsByClassName("dot" + id);
+      if (n > slides.length) {
+        slideIndex[id] = 1;
+      }
+      if (n < 1) {
+        slideIndex[id] = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex[id] - 1].style.display = "block";
+      dots[slideIndex[id] - 1].className += " active";
+    }
+
+    // Automatic slideshow
+    setInterval(() => {
+      plusSlides(0, 1);
+    }, 150000);
+  </script>
 
 </body>
+
 </html>
